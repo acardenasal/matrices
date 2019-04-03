@@ -1,0 +1,7 @@
+import numpy as np
+a = eval(input("Ingrese una matriz \n"))
+c = np.asarray(a)
+b = np.asarray(a)
+b = np.fliplr(b)
+print (list((np.diagonal(c))))
+print (list((np.diagonal(b))))
