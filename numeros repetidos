@@ -1,0 +1,12 @@
+l1=eval(input("Ingrese una lista \n"))
+l=[]
+l2=[]
+for i in l1:
+    if l1.count(i) > 1:
+        l.append(i)
+        for e in l:
+          if e not in l2:
+            l2.append(e)
+            
+    
+print(l2)
