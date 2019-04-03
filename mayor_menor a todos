@@ -1,0 +1,23 @@
+a = eval(input("Ingrese una lista \n"))
+a1 = int(input("Ingrese un numero entero \n"))
+li = []
+acum = 0
+acur = 0
+acu = 0
+for i in a:
+    if i < a1:
+        acum+=1
+        acu+=1
+        acur+=i
+    if i > a1:
+        acum+=0
+        li.append(i)
+        acur+=i
+    if i == a1:
+        acu0:
+  print(a
+elif acum != 0 acur)
+elif acum/acu == 1:
+  print("Mayorm+=10000
+if acum == ")nd acum != 1:
+  print("No cumple")
