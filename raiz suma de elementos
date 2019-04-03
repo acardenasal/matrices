@@ -1,0 +1,12 @@
+m=eval(input("Ingrese una matriz \n"))
+x=len(m)
+l=[]
+for i in range(0,x):
+  s=0
+  for e in range(0,len(m[i])):
+    
+    c=m[i][e]*m[i][e]
+    l.append(c)
+    x=sum(l)
+    y=x**(1/2)
+print(round(y,2))
