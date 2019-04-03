@@ -1,0 +1,16 @@
+m=eval(input("Ingrese una matriz \n"))
+sumadiap=0
+sumadiasecu=0
+m2= [[0] * (len(m)) for i in range(len(m[0]))]
+tr=[]
+for i in range(len(m)):
+    for j in range(len(m2)):
+        m2[j][i] = m[i][j]
+for i in range(len(m2)):
+    tr.append(m2[i])
+
+for i in range(0,len(tr)):
+  sumadiap+=tr[i][i]
+for e in range(0,len(tr)):
+  sumadiasecu+=tr[e][(((len(tr[e]))-1)-e)]
+print(sumadiasecu+sumadiap)
