@@ -1,0 +1,10 @@
+m=eval(input("Ingrese una matriz \n"))
+sumadiap=0
+sumadiasecu=0
+
+
+for i in range(0,len(m)):
+  sumadiap+=m[i][i]
+for e in range(0,len(m)):
+  sumadiasecu+=m[e][(((len(m[e]))-1)-e)]
+print(sumadiasecu+sumadiap)
