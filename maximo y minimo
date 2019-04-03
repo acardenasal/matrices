@@ -1,0 +1,6 @@
+m=eval(input("Ingrese una matriz \n"))
+x=len(m)
+for i in range(0,x):
+  mi=min(m[i])
+  ma=max(m[i])
+  print([ma,mi])
